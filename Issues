@@ -9,8 +9,8 @@ the imshow() error stil prevailed.
 
 I saved the model and ended up abandoning the Anaconda Environment. Ran the training loop on VSCode.
 
-OpenCV woudnt work on VSCode either. Troubleshooting took me a long time. Had to create a new Conda environment(again), into which I imported the model and was succesfully able to 
-open and the VideoCapture() and imshow() functions successfully.
+OpenCV wouldnt work on VSCode either. Troubleshooting took me a long time. Had to create a new Conda environment(again), into which I imported the model and was succesfully able to 
+open and run the VideoCapture() and imshow() functions successfully.
 
 The Face detector works well, but I wish it was more accurate. It most probably suffers from overfitting, which would not have happened if I had a larger training dataset, which was around 10 photohraphs of mine multiplied 
 3 times by the augmentor(Albumentations).
